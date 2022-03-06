@@ -1,0 +1,19 @@
+﻿<Window x:Name="TaskList" x:Class="Circularity.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Circularity"
+        mc:Ignorable="d"
+        Title="TaskList" Height="540" Width="960">
+    <Grid>
+        <Menu Margin="0,0,0,495" Background="#FF383434">
+            <Button Background="{x:Null}" BorderBrush="{x:Null}" Content="Circularity" Foreground="White" FontFamily="POLYA Regular" FontSize="19" FontWeight="Bold"/>
+            <Button Background="{x:Null}" BorderBrush="{x:Null}" Content="Lists" Foreground="White" FontFamily="POLYA Regular" FontSize="18"/>
+        </Menu>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Center" Margin="0,113,0,0" VerticalAlignment="Top" Width="940" Height="25" FontFamily="Panama Light" FontSize="18" Checked="CheckBox_Checked"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,34,0,0" TextWrapping="Wrap" Text="List 1" VerticalAlignment="Top" FontSize="48" FontFamily="Panama Light" FontWeight="Bold"/>
+        <Separator HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top" Height="29" Width="960"/>
+        <ContentControl Content="ContentControl" HorizontalAlignment="Left" Margin="74,154,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
